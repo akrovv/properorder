@@ -1,0 +1,22 @@
+run:
+  timeout: 3m
+  issues-exit-code: 1
+  tests: true
+linters:
+  enable:
+    - gci
+    - gofumpt
+    - bodyclose
+    - decorder
+    - custom_linter
+issues:
+  new-from-rev: origin/master
+linters-settings:
+  godot:
+    exclude:
+      - "^*_gen.go$"
+  custom:
+    custom_linter:
+      path: ./custom_linter.so
+      settings:
+        properorder: true

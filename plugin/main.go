@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"gitlab.com/common/linter/analyzers/properorder"
+	"github.com/akrovv/properorder/analyzers/properorder"
 	"golang.org/x/tools/go/analysis"
 )
 

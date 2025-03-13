@@ -1,4 +1,4 @@
-module gitlab.com/common/linter
+module github.com/akrovv/properorder
 
 go 1.24.1
 

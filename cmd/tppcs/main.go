@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gitlab.com/common/linter/analyzers/properorder"
+	"github.com/akrovv/properorder/analyzers/properorder"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
