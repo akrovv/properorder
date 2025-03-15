@@ -28,7 +28,7 @@ type errsPrinter struct {
 	PrintedLines int
 }
 
-func (p *errsPrinter) Errorf(format string, args ...interface{}) {
+func (p *errsPrinter) Errorf(_ string, args ...interface{}) {
 	fmt.Println(args...)
 	p.PrintedLines++
 }
